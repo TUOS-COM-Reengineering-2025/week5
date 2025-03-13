@@ -8,8 +8,10 @@ You will need to be able to execute your group system.
 
 If it can be installed via ```pip install``` then you can just do that, and import it where relevant. 
 
-If you are restricting yourselves to a specific commit in your target repository, there are instructions on how to 
-install that directory [here](https://www.geeksforgeeks.org/how-to-install-a-python-package-from-a-github-repository/).
+If you are restricting yourselves to a specific commit in your target repository, you should be able to run pip install
+with the following syntax:
+
+```pip install git+https://github.com/USER/REPO.git@COMMIT_HASH``` (I have not tested this!)
 
 Alternatively, you can put this Python notebook into the root directory of your target repository and execute it 
 in there.
